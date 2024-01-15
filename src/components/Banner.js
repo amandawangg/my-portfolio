@@ -9,9 +9,12 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}> 
-                        <spam className="tagline">Welcome to my Portfolio</spam>
-                        <h1>{`Hi I'm Amanda `}</h1>
-                        <p>Description goes here</p>
+                        <spam className="tagline">Hello 👋</spam>
+                        <div>
+                            <h1>I'm</h1>
+                            <h2> Amanda Wang</h2>
+                        </div>
+                        <p>UX/UI Designer, Software Engineer, Frontend Developer</p>
                         <button onClick={(() => console.log('connect'))}>Let's Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}> 
