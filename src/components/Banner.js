@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg"
+import profileImg from "../assets/img/profile-img.png"
 
 export const Banner = () => {
     
@@ -15,7 +15,7 @@ export const Banner = () => {
                         <button onClick={(() => console.log('connect'))}>Let's Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}> 
-                        <img src={headerImg} alt="Header Img" />
+                        <img src={profileImg} alt="Profile Img" />
                     </Col>
                 </Row>
             </Container>
