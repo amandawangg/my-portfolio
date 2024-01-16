@@ -3,9 +3,6 @@ import meter8 from "../assets/img/meter8.svg";
 import meter7 from "../assets/img/meter7.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-// import arrow1 from "../assets/img/arrow1.svg";
-// import arrow2 from "../assets/img/arrow2.svg";
-// import colorSharp from "../assets/img/color-sharp.png";
 import {Container, Row, Col} from "react-bootstrap";
 
 export const Skills = () => {
@@ -75,7 +72,6 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            {/* <img className="background-image-left" src={colorSharp} /> */}
         </section>
     )
 }
