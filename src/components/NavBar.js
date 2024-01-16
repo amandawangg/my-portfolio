@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import logo from '../assets/img/logo.svg';
 import linkedInIcon from '../assets/img/linkedin-icon.png';
 import githubIcon from '../assets/img/github-icon.svg';
+// import { HashLink } from 'react-router-hash-link';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -47,7 +48,9 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/amanda-wang04/"><img src={linkedInIcon} alt="linkedInIcon" /></a>
                 <a href="https://github.com/amandawangg"><img src={githubIcon} alt="GithubIcon" /></a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}><span>Contact</span> </button>
+            {/* <HashLink to='#contact'>
+              <button className="vvd"><span>Contact</span> </button>
+            </HashLink> */}
           </span>
         </Navbar.Collapse>
       </Container>
