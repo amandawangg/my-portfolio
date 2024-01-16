@@ -19,7 +19,7 @@ export const Banner = () => {
                         <button onClick={(() => console.log('connect'))}>Let's Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}> 
-                        <img src={profileImg} />
+                        <img src={profileImg} alt="Profile Img" />
                     </Col>
                 </Row>
             </Container>
