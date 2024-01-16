@@ -36,35 +36,35 @@ export const Skills = () => {
                             <p></p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter9} alt="Image"/>
+                                    <img src={meter9} />
                                     <h5>Java</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter8} alt="Image" />
+                                    <img src={meter8} />
                                     <h5>HTML/CSS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter8} alt="Image"/>
+                                    <img src={meter8} />
                                     <h5>React</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter7} alt="Image" />
+                                    <img src={meter7} />
                                     <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter9} alt="Image"/>
+                                    <img src={meter9} />
                                     <h5>Python</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter8} alt="Image" />
+                                    <img src={meter8} />
                                     <h5>Figma</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter8} alt="Image"/>
+                                    <img src={meter8} />
                                     <h5>C</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter8} alt="Image"/>
+                                    <img src={meter8} />
                                     <h5>Agile/Scrum/Kanban</h5>
                                 </div>
                             </Carousel>
