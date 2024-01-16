@@ -1,5 +1,7 @@
 import { Tab, Nav, Container, Row, Col } from "react-bootstrap";
-import projImg1 from "../assets/img/project-img1.png";
+import seProjImg from "../assets/img/seProjImg.png";
+import iosProjImg from "../assets/img/iosProjImg.png";
+import portfolioProjImg from "../assets/img/portfolioProjImg.png";
 import { ProjectCard } from "./ProjectCard";
 import TrackVisibility from 'react-on-screen';
 
@@ -8,17 +10,17 @@ export const Projects = () => {
         {
           title: "Search Engine",
           description: "Backend Project",
-          imgUrl: projImg1,
+          imgUrl: seProjImg,
         },
         {
           title: "iOS App",
           description: "Frontend Project",
-          imgUrl: projImg1,
+          imgUrl: iosProjImg,
         },
         {
-          title: "Project",
-          description: "Backend Project",
-          imgUrl: projImg1,
+          title: "Portfolio Project",
+          description: "Frontend Project w/ Figma prototype",
+          imgUrl: portfolioProjImg,
         },
       ];
     
