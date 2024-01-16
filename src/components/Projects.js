@@ -1,4 +1,4 @@
-import { Tab, TabContainer, Nav, Container, Row, Col } from "react-bootstrap";
+import { Tab, Nav, Container, Row, Col } from "react-bootstrap";
 import projImg1 from "../assets/img/project-img1.png";
 import { ProjectCard } from "./ProjectCard";
 import TrackVisibility from 'react-on-screen';
