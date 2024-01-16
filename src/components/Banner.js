@@ -14,7 +14,8 @@ export const Banner = () => {
                             <h1>I'm</h1>
                             <h2> Amanda Wang</h2>
                         </div>
-                        <p>UX/UI Designer, Software Engineer, Frontend Developer</p>
+                        <p>UX/UI Designer, Software Engineer, Frontend Developer </p>
+                        <p2> who loves creative ideas, ambitious challenges and cutting-edge technologies. I translate dreams into code! </p2>
                         <button onClick={(() => console.log('connect'))}>Let's Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}> 

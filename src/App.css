@@ -38,10 +38,17 @@ body {
   font-family: 'Centra', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  color:rgb(0, 0, 0) !important;
 }
 
 p, a, li, button, ul {
@@ -248,9 +255,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
   background: linear-gradient(90.21deg, #e3aba8 -5.91%, #8FCACA 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #000;
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
@@ -272,14 +279,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: inline-block;
-  color:#E3ABA8;
+  color:#E18783;
 }
 .banner p {
+  color: #5AB0B0;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+  display: inline;
+}
+.banner p2 {
   color: #000;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  display: inline;
 }
 .banner button {
   color: #000;
@@ -324,9 +341,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background-image: url('./assets/img/banner-bg.png');
 }
 .skill-bx {
-  background: #151515;
+  background: #D1DEDE;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -335,9 +353,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
+  color: #000;
 }
 .skill p {
-    color: #B8B8B8;
+    color: #000;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
