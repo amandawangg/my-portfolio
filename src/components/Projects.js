@@ -4,6 +4,7 @@ import iosProjImg from "../assets/img/iosProjImg.png";
 import portfolioProjImg from "../assets/img/portfolioProjImg.png";
 import { ProjectCard } from "./ProjectCard";
 import TrackVisibility from 'react-on-screen';
+import React from 'react';
 
 export const Projects = () => {
     const projects = [
@@ -11,18 +12,25 @@ export const Projects = () => {
           title: "Search Engine",
           description: "Backend Project",
           imgUrl: seProjImg,
+          link: "https://github.com/amandawangg/SearchEngine",
         },
         {
-          title: "iOS App",
-          description: "Frontend Project",
+          title: "accesSOS",
+          description: "Frontend portion of the iOS App",
           imgUrl: iosProjImg,
+          link: "https://apps.apple.com/us/app/accessos/id1578050242",
         },
         {
           title: "Portfolio Project",
           description: "Frontend Project w/ Figma prototype",
           imgUrl: portfolioProjImg,
+          link: "https://www.figma.com/file/Tk3UwDTXtESO6RESYgXXNW/Untitled?type=design&node-id=0%3A1&mode=design&t=ELlCpxrgmYlUnl4O-1",
         },
       ];
+
+      const handleProjectCardClick = (link) => {
+        window.location.href = link;
+      };
     
       return (
         <section className="project" id="projects">
@@ -53,6 +61,7 @@ export const Projects = () => {
                                 return (
                                   <ProjectCard
                                     key={index}
+                                    onClick={() => handleProjectCardClick(project.link)}
                                     {...project}
                                     />
                                 )
@@ -61,6 +70,19 @@ export const Projects = () => {
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="section">
+                          <Row>
+                              {
+                                projects.map((project, index) => {
+                                  return (
+                                    <ProjectCard
+                                      key={index}
+                                      onClick={() => handleProjectCardClick(project.link)}
+                                      {...project}
+                                      />
+                                  )
+                                })
+                              }
+                            </Row>
                           <p>Description</p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">

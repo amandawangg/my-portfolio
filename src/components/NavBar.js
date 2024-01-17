@@ -30,7 +30,7 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-            <img src={logo} alt="logo" style={{ width: '55px', height: 'auto' }}/>
+            <img src={logo} alt="logo" style={{ width: '50px', height: 'auto' }}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
             <span className="navbar-toggle-icon"></span>
@@ -48,7 +48,9 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/amanda-wang04/"><img src={linkedInIcon} alt="linkedInIcon" /></a>
                 <a href="https://github.com/amandawangg"><img src={githubIcon} alt="GithubIcon" /></a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}><span>Contact</span> </button>
+            <button className="vvd" onClick={() => console.log('connect')}><span>
+              <a href="mailto:awang40@dons.usfca.edu">Contact</a></span> 
+            </button>
           </span>
         </Navbar.Collapse>
       </Container>
