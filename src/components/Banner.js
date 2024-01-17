@@ -15,7 +15,7 @@ export const Banner = () => {
                             <h2> Amanda Wang</h2>
                         </div>
                         <p>UX/UI Designer, Software Engineer, Frontend Developer </p>
-                        <p2> who loves creative ideas, ambitious challenges and cutting-edge technologies. I translate dreams into code! </p2>
+                        <p2> who loves transforming creative ideas into seamless digital solutions and embracing ambitious challenges. I translate dreams into code! </p2>
                         <button onClick={() => window.open('https://drive.google.com/file/d/1wtzl7K8zomnm0PoU_nnarJUIOFvTfbTx/view?usp=sharing', '_blank')}>View Resume <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}> 

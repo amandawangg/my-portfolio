@@ -14,8 +14,12 @@ export const Footer = () => {
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
             <h3>Amanda Wang</h3>
-            <p2><Envelope size={20} style={{ marginRight: '10px' }} />awang40@dons.usfca.edu</p2>
-            <p2><Telephone size={20} style={{ marginRight: '10px' }} />+1(415)962-6634</p2>
+            <p2><Envelope size={20} style={{ marginRight: '10px' }} />
+              <a href="mailto:awang40@dons.usfca.edu">awang40@dons.usfca.edu</a>
+            </p2>
+            <p2><Telephone size={20} style={{ marginRight: '10px' }} />
+              <a href="tel:+14159626634">(415) 962-6634</a>  
+            </p2>
             <p2><PinMap size={20} style={{ marginRight: '10px' }} />San Francisco, CA</p2>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">

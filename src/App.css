@@ -318,6 +318,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
   color:rgb(0, 0, 0);
   margin-right: 20px;
+  margin-left: 80px;
 }
 .banner h2 {
   font-size: 65px;
@@ -335,6 +336,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  text-align: left;
   display: inline;
 }
 .banner p2 {
@@ -350,6 +352,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
+  margin-left: 80px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
@@ -364,8 +367,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  /* animation: updown 3s linear infinite; */
   margin-top: -100px;
+  margin-left: -40px;
   width: 600px;
   height: auto;
 }
@@ -603,8 +606,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Footer CSS */
 .footer {
-  padding: 50px 0 50px 0;
-  /* background-image: url('./assets/img/banner-bg.png'); */
+  padding: 20px 0 20px 0;
   background-color: #d1dede;
   background-position: center center;
   background-size: cover;
