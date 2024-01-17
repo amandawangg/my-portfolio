@@ -251,6 +251,44 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+/* About CSS */
+.about {
+  padding: 260px 0 100px 0;
+  background-color:#f1e7d8 !important;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about img {
+  width: 9%;
+}
+.about h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: inline-block;
+  color:rgb(255, 255, 255);
+  margin-right: 20px;
+}
+.about p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #f1e7d8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+.about p2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 0.5px;
+  display: flex;
+  margin-left: 260px;
+  align-content: center;
+}
+
 /* Banner CSS */
 .banner {
   margin-top: 0;
@@ -346,7 +384,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 20px;
+  /* margin-top: -60px; */
 }
 .skill h2 {
 	font-size: 45px;
@@ -571,19 +610,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.newsletter-bx {
-  background: #FFFFFF;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
-}
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
-}
 .new-email-bx {
   background: #fff;
   padding: 5px;
@@ -648,6 +674,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   display: flex;
   margin-left: 260px;
+  margin-top: 10px;
   align-content: center;
 }
 
