@@ -16,7 +16,8 @@ export const Banner = () => {
                         </div>
                         <p>UX/UI Designer, Software Engineer, Frontend Developer </p>
                         <p2> who loves creative ideas, ambitious challenges and cutting-edge technologies. I translate dreams into code! </p2>
-                        <button onClick={(() => console.log('connect'))}>Let's Connect <ArrowRightCircle size={25} /></button>
+                        {/* <button onClick={(() => console.log('Resume'))}>View Resume<ArrowRightCircle size={25}/></button> */}
+                        <button onClick={() => window.open('https://drive.google.com/file/d/1wtzl7K8zomnm0PoU_nnarJUIOFvTfbTx/view?usp=sharing', '_blank')}>View Resume <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}> 
                         <img src={profileImg} alt="Profile Img" />

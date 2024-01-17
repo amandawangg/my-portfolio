@@ -38,7 +38,7 @@ body {
   font-family: 'Centra', sans-serif !important;
 }
 
-h1, h2, h3, h4, h6 {
+h1, h2, h4, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -49,6 +49,15 @@ h5 {
   padding: 0;
   line-height: normal;
   color:rgb(0, 0, 0) !important;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  /* line-height: normal; */
+  color:rgb(0, 0, 0) !important;
+  display: inline-flex;
+  margin-left: 20px;
 }
 
 p, a, li, button, ul {
@@ -555,8 +564,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Footer CSS */
 .footer {
-  padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  padding: 50px 0 50px 0;
+  /* background-image: url('./assets/img/banner-bg.png'); */
+  background-color: #d1dede;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -622,14 +632,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
 }
 .footer img {
-  width: 26%;
+  width: 9%;
 }
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #000;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+.footer p2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 0.5px;
+  display: flex;
+  margin-left: 260px;
+  align-content: center;
 }
 
 
