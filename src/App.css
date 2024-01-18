@@ -253,46 +253,51 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* About CSS */
 .about {
-  padding: 260px 0 100px 0;
-  background-color:#f1e7d8 !important;
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding: 100px 0 100px 0;
+  background-color: #F1E7D8;
 }
-.about img {
-  width: 9%;
+
+.photo img {
+  width: 70%;
+  border-radius: 8px; 
 }
-.about h1 {
-  font-size: 65px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
+
+.text {
+  padding: 0 20px;
+}
+
+.text-box h2 {
+  font-size: 2.5rem;
   margin-bottom: 20px;
-  display: inline-block;
-  color:rgb(255, 255, 255);
-  margin-right: 20px;
+  text-align: left;
+  color:rgb(0, 0, 0);
+  padding: 20px;
 }
-.about p {
-  font-weight: 400;
-  font-size: 14px;
-  color: #f1e7d8;
-  letter-spacing: 0.5px;
-  margin-top: 20px;
+
+.text-box p {
+  font-size: 17px;
+  margin-bottom: 15px;
+  text-align: left;
+  color:rgb(0, 0, 0);
+  margin-left: 20px;
 }
-.about p2 {
-  font-weight: 400;
-  font-size: 14px;
-  color: #000;
-  letter-spacing: 0.5px;
-  display: flex;
-  margin-left: 260px;
-  align-content: center;
+
+.text-container {
+  position: relative;
 }
+
+.text-box {
+  background-color:#d3d2d2; 
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgb(92, 90, 90); /* Add drop shadow */
+}
+
 
 /* Banner CSS */
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 260px 0 0px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
