@@ -276,6 +276,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .text-box p {
   font-size: 17px;
+  margin-top: 15px;
   margin-bottom: 15px;
   text-align: left;
   color:rgb(0, 0, 0);
@@ -287,8 +288,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .text-box {
-  background-color:#d3d2d2; 
-  padding: 20px;
+  background-color:#d3d2d2;
+  padding: 40px;
   border-radius: 15px;
   box-shadow: 0 0 20px rgb(92, 90, 90); /* Add drop shadow */
 }
