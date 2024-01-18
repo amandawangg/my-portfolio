@@ -1,7 +1,7 @@
 import { Tab, Container, Row, Col } from "react-bootstrap";
 import seProjImg from "../assets/img/seProjImg.png";
 import iosProjImg from "../assets/img/iosProjImg2.png";
-import portfolioProjImg from "../assets/img/portfolioProjImg.png";
+import portfolioProjImg from "../assets/img/portfolioProjImg2.png";
 import { ProjectCard } from "./ProjectCard";
 import TrackVisibility from 'react-on-screen';
 import React from 'react';

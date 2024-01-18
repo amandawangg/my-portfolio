@@ -54,7 +54,7 @@ h5 {
 h3 {
   margin: 0;
   padding: 0;
-  /* line-height: normal; */
+  line-height: normal;
   color:rgb(0, 0, 0) !important;
   display: inline-flex;
   margin-left: 20px;
