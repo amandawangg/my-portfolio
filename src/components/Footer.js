@@ -3,7 +3,7 @@ import logo from "../assets/img/logo.svg";
 import linkedInIcon from '../assets/img/linkedin-icon.png';
 import githubIcon from '../assets/img/github-icon.svg';
 import { Envelope } from "react-bootstrap-icons";
-import { Telephone } from "react-bootstrap-icons";
+// import { Telephone } from "react-bootstrap-icons";
 import { PinMap } from "react-bootstrap-icons";
 
 export const Footer = () => {
