@@ -17,9 +17,9 @@ export const Footer = () => {
             <p2><Envelope size={20} style={{ marginRight: '10px' }} />
               <a href="mailto:awang40@dons.usfca.edu">awang40@dons.usfca.edu</a>
             </p2>
-            <p2><Telephone size={20} style={{ marginRight: '10px' }} />
+            {/* <p2><Telephone size={20} style={{ marginRight: '10px' }} />
               <a href="tel:+14159626634">(415) 962-6634</a>  
-            </p2>
+            </p2> */}
             <p2><PinMap size={20} style={{ marginRight: '10px' }} />San Francisco, CA</p2>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
